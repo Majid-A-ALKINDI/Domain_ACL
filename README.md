@@ -23,8 +23,8 @@ Prerequisites
 Usage
 Clone the Repository:
 
-    git clone https://github.com/yourusername/ActiveDirectoryAclExporter.git
-    cd ActiveDirectoryAclExporter
+    git clone https://github.com/Majid-A-ALKINDI/Domain_ACL.git
+    cd Domain_ACL
 
 Build the Application:
 
