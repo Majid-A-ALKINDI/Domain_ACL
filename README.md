@@ -21,29 +21,28 @@ Prerequisites
     Appropriate permissions to query Active Directory
 
 Usage
+Clone the Repository:
 
-    Clone the Repository:
-
-git clone https://github.com/yourusername/ActiveDirectoryAclExporter.git
-cd ActiveDirectoryAclExporter
+    git clone https://github.com/yourusername/ActiveDirectoryAclExporter.git
+    cd ActiveDirectoryAclExporter
 
 Build the Application:
 
 You can build the application using Visual Studio or via the command line. If using the command line, navigate to the project directory and run:
 
-msbuild Domain_ACL.csproj
+    msbuild Domain_ACL.csproj
 
 Run the Application:
 
-Execute the compiled executable. The application will prompt you for the domain name and the target username.
+    Execute the compiled executable. The application will prompt you for the domain name and the target username.
 
-Domain_ACL.exe
+    Domain_ACL.exe
 
 Example Input:
 
-Enter the domain name (e.g., yourdomain.com): yourdomain.com
-Enter the Target username: UserX
+    Enter the domain name (e.g., yourdomain.com): yourdomain.com
+    Enter the Target username: UserX
 
 Check Output:
 
-Once completed, the application will create a file named UserX.txt containing the detailed ACL information for the user.
+    Once completed, the application will create a file named UserX.txt containing the detailed ACL information for the user.
