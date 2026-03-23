@@ -1,5 +1,5 @@
 
-# Active Directory ACL Scaner
+# Active Directory ACL Scanner
 
 This C# console application connects to Active Directory and provides two-way analysis of interesting ACL permissions.
 
